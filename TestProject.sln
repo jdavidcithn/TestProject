@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.Service", "Module.Se
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.Shared", "Module.Shared\Module.Shared.csproj", "{2EAD535F-0DF3-4447-BDDA-7587CA75F9EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetRPG.Gateway", "DotnetRPG.Gateway\DotnetRPG.Gateway.csproj", "{B6B242AB-2B07-49EA-A653-17FDA7A01A84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetRPG.Gateway", "DotnetRPG.Gateway\DotnetRPG.Gateway.csproj", "{B6B242AB-2B07-49EA-A653-17FDA7A01A84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectGateway", "TestProjectGateway\TestProjectGateway.csproj", "{BDE09BC5-8D60-4988-8677-FA925914EEEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{B6B242AB-2B07-49EA-A653-17FDA7A01A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6B242AB-2B07-49EA-A653-17FDA7A01A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6B242AB-2B07-49EA-A653-17FDA7A01A84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDE09BC5-8D60-4988-8677-FA925914EEEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDE09BC5-8D60-4988-8677-FA925914EEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDE09BC5-8D60-4988-8677-FA925914EEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDE09BC5-8D60-4988-8677-FA925914EEEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

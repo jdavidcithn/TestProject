@@ -62,13 +62,6 @@ namespace Module.Infrastructure.Repositories
         {
             var existingCharacter = await _context.Characters.FirstOrDefaultAsync(c => c.Id == character.Id);
 
-            //existingCharacter!.Name = character.Name;
-            //existingCharacter.HitPoints = character.HitPoints;
-            //existingCharacter.Strength = character.Strength;
-            //existingCharacter.Defense = character.Defense;
-            //existingCharacter.Intelligence = character.Intelligence;
-            //existingCharacter.Class = character.Class;
-
             _mapper.Map(character, existingCharacter);
 
             _context.Entry(existingCharacter).CurrentValues.SetValues(character);
